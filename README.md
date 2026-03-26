@@ -40,6 +40,8 @@ house_raw --> house_clean --> house_features --> [Predict LogSalePrice] --> hous
 test_raw  --> test_clean  --> test_clean_prepared --------+--> house_predictions --> house_predictions_prepared
 ```
 
+![Flow Dataiku](ScreenshotDataiku/FlowDataiku.png)
+
 ### Preparazione dei Dati
 
 - **Valori mancanti:** le variabili categoriche come `GarageType` e `BsmtQual` vengono imputate con la categoria `"Nessuno"`, poiché il valore mancante indica l'assenza della caratteristica
@@ -85,6 +87,8 @@ Le variabili con maggiore impatto predittivo sul prezzo:
 | `LogLotArea` | 7% |
 | `LogGrLivArea` | 5% |
 | `GarageCars` | 5% |
+
+![Feature Importance](ScreenshotDataiku/FeatureImportance.png)
 
 Dal SHAP plot si osserva che valori alti di `LogTotalSF` e `OverallQual` aumentano il prezzo previsto, mentre un'età elevata (`HouseAge`) tende a ridurlo.
 
