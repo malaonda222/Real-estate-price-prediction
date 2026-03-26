@@ -110,7 +110,7 @@ house-price-prediction/
 
 ## Presentazione
 
-La presentazione del progetto è stata realizzata su **Gamma** (link : https://gamma.app/docs/Quanto-vale-casa-tua-3or725m2inyj29u?mode=doc) e illustra le scelte di modellazione e le principali determinanti del prezzo emerse dall'analisi.
+La presentazione del progetto è stata realizzata su **Gamma** (link: https://gamma.app/docs/Quanto-vale-casa-tua-3or725m2inyj29u?mode=doc) e illustra le scelte di modellazione e le principali determinanti del prezzo emerse dall'analisi.
 
 ---
 
